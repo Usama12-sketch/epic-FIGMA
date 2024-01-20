@@ -1,0 +1,307 @@
+.sellingProductsOn {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.sellingProductsOnAmazonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.privateLabelingCreate,
+.retailArbitragePurchase {
+  margin-bottom: 0;
+}
+.retailArbitragePurchasePro {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.retailArbitragePurchaseContainer {
+  align-self: stretch;
+  height: 129px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+}
+.amazonAffiliateProgram {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.amazonAffiliateProgramWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.earnCommissionsBy {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.earnCommissionsByPromotingWrapper {
+  width: 1411px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.merchByAmazon {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.merchByAmazonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.designAndSell {
+  height: 43px;
+  position: relative;
+  display: inline-block;
+}
+.designAndSellCustomTShirtWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.kindleDirectPublishing {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.kindleDirectPublishingKdpWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.selfPublishEBooksAnd {
+  height: 43px;
+  position: relative;
+  display: inline-block;
+}
+.selfPublishEBooksAndEarnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.amazonHandmade {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.amazonHandmadeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sellHandmadeProducts {
+  height: 43px;
+  position: relative;
+  display: inline-block;
+}
+.sellHandmadeProductsOnAmazWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.amazonMechanicalTurk {
+  align-self: stretch;
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.completeSmallTasks {
+  height: 86px;
+  font-size: var(--font-size-13xl);
+}
+.amazonFbaFulfillment,
+.completeSmallTasks,
+.sendYourProducts {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.amazonFbaFulfillment {
+  height: 53px;
+  font-weight: 600;
+}
+.sendYourProducts {
+  height: 86px;
+  font-size: var(--font-size-13xl);
+}
+.frameParent,
+.multiFrame,
+.multiFrameInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-10xl);
+}
+.multiFrame,
+.multiFrameInner {
+  box-sizing: border-box;
+}
+.multiFrameInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xl);
+}
+.multiFrame {
+  width: 1532px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-16xl);
+  min-height: 1450px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 950px) {
+  .sellingProductsOn {
+    font-size: var(--font-size-13xl);
+  }
+  .retailArbitragePurchaseContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .amazonAffiliateProgram {
+    font-size: var(--font-size-13xl);
+  }
+  .earnCommissionsBy {
+    font-size: var(--font-size-7xl);
+  }
+  .merchByAmazon {
+    font-size: var(--font-size-13xl);
+  }
+  .designAndSell {
+    font-size: var(--font-size-7xl);
+  }
+  .kindleDirectPublishing {
+    font-size: var(--font-size-13xl);
+  }
+  .selfPublishEBooksAnd {
+    font-size: var(--font-size-7xl);
+  }
+  .amazonHandmade {
+    font-size: var(--font-size-13xl);
+  }
+  .sellHandmadeProducts {
+    font-size: var(--font-size-7xl);
+  }
+  .amazonMechanicalTurk {
+    font-size: var(--font-size-13xl);
+  }
+  .completeSmallTasks {
+    font-size: var(--font-size-7xl);
+  }
+  .amazonFbaFulfillment {
+    font-size: var(--font-size-13xl);
+  }
+  .sendYourProducts {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .multiFrame {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sellingProductsOn {
+    font-size: var(--font-size-5xl);
+  }
+  .retailArbitragePurchaseContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .amazonAffiliateProgram {
+    font-size: var(--font-size-5xl);
+  }
+  .earnCommissionsBy {
+    font-size: var(--font-size-lgi);
+  }
+  .merchByAmazon {
+    font-size: var(--font-size-5xl);
+  }
+  .designAndSell {
+    font-size: var(--font-size-lgi);
+  }
+  .kindleDirectPublishing {
+    font-size: var(--font-size-5xl);
+  }
+  .selfPublishEBooksAnd {
+    font-size: var(--font-size-lgi);
+  }
+  .amazonHandmade {
+    font-size: var(--font-size-5xl);
+  }
+  .sellHandmadeProducts {
+    font-size: var(--font-size-lgi);
+  }
+  .amazonMechanicalTurk {
+    font-size: var(--font-size-5xl);
+  }
+  .completeSmallTasks {
+    font-size: var(--font-size-lgi);
+  }
+  .amazonFbaFulfillment {
+    font-size: var(--font-size-5xl);
+  }
+  .sendYourProducts {
+    font-size: var(--font-size-lgi);
+  }
+}

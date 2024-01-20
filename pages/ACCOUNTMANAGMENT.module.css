@@ -1,0 +1,252 @@
+.accountManagmentChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 491px;
+  display: none;
+}
+.accountManagement {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.wrapperRectangle46Child {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.552);
+}
+.wrapperRectangle46 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountsFrame {
+  width: 1677px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-86xl);
+  min-height: 632px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.accountManagementTypically {
+  height: 172px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.accountManagementTypicallyRWrapper {
+  width: 1388px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.belowAreGeneral {
+  height: 43px;
+  position: relative;
+  display: inline-block;
+}
+.servicesFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 81px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.facebookInstagramFrameChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.instagramWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.tiktokWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.whatsappWrapper {
+  height: 70px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tikTokWhatsAppFrame {
+  width: 402px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.accountManagment,
+.facebookInstagramFrame {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.facebookInstagramFrame {
+  align-self: stretch;
+  background-color: var(--color-burlywood);
+  flex-direction: row;
+  padding: var(--padding-14xl) 678px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.accountManagment {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-86xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .facebookInstagramFrame {
+    padding-left: var(--padding-320xl);
+    padding-right: var(--padding-320xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .accountManagement {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .accountManagementTypically,
+  .belowAreGeneral {
+    font-size: var(--font-size-7xl);
+  }
+  .accountManagment {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .accountsFrame {
+    gap: var(--gap-33xl);
+  }
+  .tikTokWhatsAppFrame {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .facebookInstagramFrame {
+    padding-left: var(--padding-150xl);
+    padding-right: var(--padding-150xl);
+    box-sizing: border-box;
+  }
+  .accountManagment {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .accountManagement {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .accountsFrame {
+    gap: var(--gap-7xl);
+  }
+  .accountManagementTypically,
+  .belowAreGeneral {
+    font-size: var(--font-size-lgi);
+  }
+  .facebookInstagramFrame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

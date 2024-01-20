@@ -1,0 +1,288 @@
+.aboutUs1 {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.aboutUs {
+  position: absolute;
+  top: 26px;
+  left: 1211px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.threeColumnFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #cda470 15.91%, rgba(68, 65, 62, 0.56));
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.aboutUs2,
+.home,
+.ourCources,
+.ourServices {
+  position: absolute;
+  top: 34px;
+  left: 631px;
+  font-weight: 600;
+  z-index: 2;
+}
+.aboutUs2,
+.ourCources,
+.ourServices {
+  left: 784px;
+  white-space: nowrap;
+}
+.ourCources,
+.ourServices {
+  left: 961px;
+}
+.ourCources {
+  left: 1149px;
+}
+.headerFrame {
+  align-self: stretch;
+  height: 97px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.ielsts {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.wrapperRectangle46Child {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.241);
+}
+.wrapperRectangle46 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testPrepFrame {
+  width: 1677px;
+  height: 1043px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-86xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.elevateYourEnglish {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.unlockTheDoors {
+  width: 1314px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  max-width: 100%;
+}
+.twoColumnFrame {
+  width: 1437px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-72xl);
+  min-height: 277px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.socialMediaFramesContainerChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramTikTokFra {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramTikTokFra1 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramTikTokFra2 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramTikTokFra3 {
+  height: 70px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.facebookInstagramTikTokWha {
+  width: 402px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.socialMediaFramesContainer {
+  align-self: stretch;
+  background-color: var(--color-burlywood);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-14xl) var(--padding-xl) var(--padding-14xl) 56px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ielts {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .ielts {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 950px) {
+  .ielsts {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .elevateYourEnglish {
+    font-size: var(--font-size-13xl);
+  }
+  .unlockTheDoors {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .testPrepFrame {
+    gap: var(--gap-33xl);
+  }
+  .twoColumnFrame {
+    gap: var(--gap-26xl);
+  }
+  .socialMediaFramesContainer {
+    padding-left: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .ielts {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ielsts {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .testPrepFrame {
+    gap: var(--gap-7xl);
+  }
+  .elevateYourEnglish {
+    font-size: var(--font-size-5xl);
+  }
+  .unlockTheDoors {
+    font-size: var(--font-size-lgi);
+  }
+  .twoColumnFrame {
+    gap: var(--gap-4xl);
+  }
+  .facebookInstagramTikTokWha {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

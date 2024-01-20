@@ -1,0 +1,130 @@
+.englishLanguage {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.rectangleFrameIcon {
+  height: 100%;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  transform: scale(1.241);
+}
+.wrapperRectangleFrame {
+  height: 829px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexibleFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-25xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.unlockThePower {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.embarkOnA {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.transformativeJourneyFrame {
+  width: 1217px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.englishLanguageFrame,
+.unlockThePowerOfEnglishMaParent {
+  width: 1397px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.englishLanguageFrame {
+  width: 1677px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 1570px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 900px) {
+  .englishLanguage {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .flexibleFrame {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .unlockThePower {
+    font-size: var(--font-size-13xl);
+  }
+  .embarkOnA {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .englishLanguageFrame,
+  .unlockThePowerOfEnglishMaParent {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .englishLanguage {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .flexibleFrame {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .unlockThePower {
+    font-size: var(--font-size-5xl);
+  }
+  .embarkOnA {
+    font-size: var(--font-size-lgi);
+  }
+  .englishLanguageFrame,
+  .unlockThePowerOfEnglishMaParent {
+    gap: var(--gap-7xl);
+  }
+}

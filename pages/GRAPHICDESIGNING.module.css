@@ -1,0 +1,441 @@
+.graphicDesigningChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 491px;
+  display: none;
+}
+.graphicDesigning1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.rectangleShapeIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.552);
+}
+.wrapperRectangleShape {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graphicDesignFrame {
+  width: 1677px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-94xl);
+  min-height: 677px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.graphicDesignIs {
+  height: 215px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.graphicDesignInfoFrame {
+  width: 1403px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-35xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.ifYoureInterested {
+  height: 43px;
+  position: relative;
+  display: inline-block;
+}
+.freelancingFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-98xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.freelancing,
+.manyGraphicDesigners {
+  position: relative;
+  display: inline-block;
+}
+.freelancing {
+  height: 53px;
+  font-weight: 600;
+}
+.manyGraphicDesigners {
+  align-self: stretch;
+  height: 129px;
+  font-size: var(--font-size-13xl);
+}
+.markplacesFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.designContests {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.participatingInDesign {
+  align-self: stretch;
+  height: 86px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+}
+.markplacesFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-height: 160px;
+}
+.onlineMarketplaces,
+.youCanSell {
+  position: relative;
+  display: inline-block;
+}
+.onlineMarketplaces {
+  height: 53px;
+  font-weight: 600;
+  max-width: 100%;
+}
+.youCanSell {
+  align-self: stretch;
+  height: 86px;
+  font-size: var(--font-size-13xl);
+}
+.markplacesFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.fullTimeEmployment {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.manyCompaniesHire {
+  align-self: stretch;
+  height: 129px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+}
+.fulltimeEmploymentFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-height: 203px;
+  max-width: 100%;
+}
+.createAndSell,
+.designTemplatesFor {
+  position: relative;
+  display: inline-block;
+}
+.createAndSell {
+  height: 53px;
+  font-weight: 600;
+  max-width: 100%;
+}
+.designTemplatesFor {
+  align-self: stretch;
+  height: 86px;
+  font-size: var(--font-size-13xl);
+}
+.contestsFrame,
+.markplacesFrame3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.markplacesFrame3 {
+  align-self: stretch;
+}
+.contestsFrame {
+  width: 1520px;
+  padding: 0 var(--padding-4xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 1115px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.tikTokWhatsAppFrameChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.instagramWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.tiktokWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.frameParent,
+.whatsappWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.whatsappWrapper {
+  height: 70px;
+  width: 65px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 402px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.facebookInstagramFrame,
+.tikTokWhatsAppFrame {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tikTokWhatsAppFrame {
+  flex: 1;
+  background-color: var(--color-burlywood);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-14xl);
+}
+.facebookInstagramFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.graphicDesigning {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-78xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .graphicDesigning {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 950px) {
+  .graphicDesigning1 {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .graphicDesignIs,
+  .ifYoureInterested {
+    font-size: var(--font-size-7xl);
+  }
+  .freelancing {
+    font-size: var(--font-size-13xl);
+  }
+  .manyGraphicDesigners {
+    font-size: var(--font-size-7xl);
+  }
+  .designContests {
+    font-size: var(--font-size-13xl);
+  }
+  .participatingInDesign {
+    font-size: var(--font-size-7xl);
+  }
+  .onlineMarketplaces {
+    font-size: var(--font-size-13xl);
+  }
+  .youCanSell {
+    font-size: var(--font-size-7xl);
+  }
+  .fullTimeEmployment {
+    font-size: var(--font-size-13xl);
+  }
+  .manyCompaniesHire {
+    font-size: var(--font-size-7xl);
+  }
+  .createAndSell {
+    font-size: var(--font-size-13xl);
+  }
+  .designTemplatesFor {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .graphicDesignFrame {
+    gap: var(--gap-37xl);
+  }
+  .contestsFrame,
+  .markplacesFrame2,
+  .markplacesFrame3 {
+    gap: var(--gap-base);
+  }
+  .graphicDesigning {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .graphicDesigning1 {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .graphicDesignFrame {
+    gap: var(--gap-9xl);
+  }
+  .graphicDesignIs,
+  .ifYoureInterested {
+    font-size: var(--font-size-lgi);
+  }
+  .freelancing {
+    font-size: var(--font-size-5xl);
+  }
+  .manyGraphicDesigners {
+    font-size: var(--font-size-lgi);
+  }
+  .designContests {
+    font-size: var(--font-size-5xl);
+  }
+  .participatingInDesign {
+    font-size: var(--font-size-lgi);
+  }
+  .onlineMarketplaces {
+    font-size: var(--font-size-5xl);
+  }
+  .youCanSell {
+    font-size: var(--font-size-lgi);
+  }
+  .fullTimeEmployment {
+    font-size: var(--font-size-5xl);
+  }
+  .manyCompaniesHire {
+    font-size: var(--font-size-lgi);
+  }
+  .createAndSell {
+    font-size: var(--font-size-5xl);
+  }
+  .designTemplatesFor {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

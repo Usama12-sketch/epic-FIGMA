@@ -1,0 +1,226 @@
+.freelancing {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.freelancingWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.offerYourDigital {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.offerYourDigitalMarketingSWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.affiliateMarketing {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.affiliateMarketingWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.promoteOtherPeoples {
+  height: 129px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.promoteOtherPeoplesProductWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.createAndSell,
+.ifYouHave {
+  position: relative;
+  display: inline-block;
+}
+.createAndSell {
+  height: 53px;
+  font-weight: 600;
+  max-width: 100%;
+}
+.ifYouHave {
+  align-self: stretch;
+  height: 86px;
+  font-size: var(--font-size-13xl);
+}
+.createAndSellOnlineCoursesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+  min-height: 195px;
+  max-width: 100%;
+}
+.consulting,
+.provideDigitalMarketing {
+  position: relative;
+  display: inline-block;
+}
+.consulting {
+  height: 53px;
+  font-weight: 600;
+}
+.provideDigitalMarketing {
+  align-self: stretch;
+  height: 129px;
+  font-size: var(--font-size-13xl);
+}
+.consultingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+}
+.googleAdsense,
+.ifYouHave1 {
+  position: relative;
+  display: inline-block;
+}
+.googleAdsense {
+  height: 53px;
+  font-weight: 600;
+}
+.ifYouHave1 {
+  align-self: stretch;
+  height: 129px;
+  font-size: var(--font-size-13xl);
+}
+.frameParent,
+.googleAdsenseParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.googleAdsenseParent {
+  align-self: stretch;
+  gap: var(--gap-34xl);
+}
+.frameParent {
+  width: 1484px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-14xl);
+  min-height: 1405px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 950px) {
+  .freelancing {
+    font-size: var(--font-size-13xl);
+  }
+  .offerYourDigital {
+    font-size: var(--font-size-7xl);
+  }
+  .affiliateMarketing {
+    font-size: var(--font-size-13xl);
+  }
+  .promoteOtherPeoples {
+    font-size: var(--font-size-7xl);
+  }
+  .createAndSell {
+    font-size: var(--font-size-13xl);
+  }
+  .ifYouHave {
+    font-size: var(--font-size-7xl);
+  }
+  .consulting {
+    font-size: var(--font-size-13xl);
+  }
+  .provideDigitalMarketing {
+    font-size: var(--font-size-7xl);
+  }
+  .googleAdsense {
+    font-size: var(--font-size-13xl);
+  }
+  .ifYouHave1 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .createAndSellOnlineCoursesParent {
+    gap: var(--gap-4xl);
+  }
+  .consultingParent {
+    gap: var(--gap-3xl);
+  }
+  .googleAdsenseParent {
+    gap: var(--gap-7xl);
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .freelancing {
+    font-size: var(--font-size-5xl);
+  }
+  .offerYourDigital {
+    font-size: var(--font-size-lgi);
+  }
+  .affiliateMarketing {
+    font-size: var(--font-size-5xl);
+  }
+  .promoteOtherPeoples {
+    font-size: var(--font-size-lgi);
+  }
+  .createAndSell {
+    font-size: var(--font-size-5xl);
+  }
+  .ifYouHave {
+    font-size: var(--font-size-lgi);
+  }
+  .consulting {
+    font-size: var(--font-size-5xl);
+  }
+  .provideDigitalMarketing {
+    font-size: var(--font-size-lgi);
+  }
+  .googleAdsense {
+    font-size: var(--font-size-5xl);
+  }
+  .ifYouHave1 {
+    font-size: var(--font-size-lgi);
+  }
+}

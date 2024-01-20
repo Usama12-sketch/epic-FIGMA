@@ -1,0 +1,60 @@
+.aboutUs1 {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.aboutUs {
+  position: absolute;
+  top: 26px;
+  left: 1211px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.textFrame {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #cda470 15.91%, rgba(68, 65, 62, 0.56));
+  width: 1920px;
+  height: 97px;
+  z-index: 1;
+}
+.aboutUs2,
+.home,
+.ourCources,
+.ourServices {
+  position: absolute;
+  top: 35px;
+  left: 613px;
+  font-weight: 600;
+  z-index: 2;
+}
+.aboutUs2,
+.ourCources,
+.ourServices {
+  left: 766px;
+  white-space: nowrap;
+}
+.ourCources,
+.ourServices {
+  left: 943px;
+}
+.ourCources {
+  left: 1131px;
+}
+.mainMenu {
+  align-self: stretch;
+  height: 174px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

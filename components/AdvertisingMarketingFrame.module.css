@@ -1,0 +1,169 @@
+.financialAccountManagement {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.inFinanceAccount {
+  align-self: stretch;
+  height: 215px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  text-align: left;
+  display: inline-block;
+}
+.salesAccountFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  max-width: 100%;
+}
+.advertisingAndMarketing {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.inTheAdvertising {
+  align-self: stretch;
+  height: 215px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  text-align: left;
+  display: inline-block;
+}
+.salesAccountFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.salesAccountManagement {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.inSalesAccount {
+  align-self: stretch;
+  height: 172px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  text-align: left;
+  display: inline-block;
+}
+.salesAccountFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  min-height: 257px;
+  max-width: 100%;
+}
+.digitalMarketingAccount {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.accountManagementText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inTheRealm {
+  align-self: stretch;
+  height: 215px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  text-align: left;
+  display: inline-block;
+}
+.advertisingMarketingFrame,
+.digitalMarketingFrame {
+  width: 1287px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.advertisingMarketingFrame {
+  width: 1361px;
+  padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xl);
+  min-height: 1568px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 1050px) {
+  .financialAccountManagement {
+    font-size: var(--font-size-13xl);
+  }
+  .inFinanceAccount {
+    font-size: var(--font-size-7xl);
+  }
+  .advertisingAndMarketing {
+    font-size: var(--font-size-13xl);
+  }
+  .inTheAdvertising {
+    font-size: var(--font-size-7xl);
+  }
+  .salesAccountManagement {
+    font-size: var(--font-size-13xl);
+  }
+  .inSalesAccount {
+    font-size: var(--font-size-7xl);
+  }
+  .digitalMarketingAccount {
+    font-size: var(--font-size-13xl);
+  }
+  .inTheRealm {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .financialAccountManagement {
+    font-size: var(--font-size-5xl);
+  }
+  .inFinanceAccount {
+    font-size: var(--font-size-lgi);
+  }
+  .advertisingAndMarketing {
+    font-size: var(--font-size-5xl);
+  }
+  .inTheAdvertising {
+    font-size: var(--font-size-lgi);
+  }
+  .salesAccountManagement {
+    font-size: var(--font-size-5xl);
+  }
+  .inSalesAccount {
+    font-size: var(--font-size-lgi);
+  }
+  .digitalMarketingAccount {
+    font-size: var(--font-size-5xl);
+  }
+  .inTheRealm {
+    font-size: var(--font-size-lgi);
+  }
+}

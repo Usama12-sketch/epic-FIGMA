@@ -1,0 +1,221 @@
+.theMostCommon {
+  align-self: stretch;
+  height: 129px;
+  font-size: inherit;
+  font-weight: 400;
+}
+.dropshipping,
+.theMostCommon,
+.withDropshippingYou {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+}
+.dropshipping {
+  height: 53px;
+  font-size: inherit;
+  font-weight: 600;
+}
+.withDropshippingYou {
+  align-self: stretch;
+  height: 172px;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+}
+.dropshippingInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  font-size: var(--font-size-21xl);
+}
+.digitalProducts {
+  margin: 0;
+  height: 53px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.developerSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  font-size: var(--font-size-21xl);
+}
+.youCanSell {
+  margin: 0;
+  height: 129px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.textFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.affiliateMarketing {
+  margin: 0;
+  height: 53px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.developerSection1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.youCanIntegrate {
+  margin: 0;
+  height: 86px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.marketingArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.appDevelopment1 {
+  margin: 0;
+  height: 53px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.appDevelopmentSection {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.developAndSell {
+  margin: 0;
+  align-self: stretch;
+  height: 129px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.appDevelopment {
+  width: 1390px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-23xl);
+  min-height: 1276px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 1050px) {
+  .theMostCommon {
+    font-size: var(--font-size-7xl);
+  }
+  .dropshipping {
+    font-size: var(--font-size-13xl);
+  }
+  .withDropshippingYou {
+    font-size: var(--font-size-7xl);
+  }
+  .digitalProducts {
+    font-size: var(--font-size-13xl);
+  }
+  .youCanSell {
+    font-size: var(--font-size-7xl);
+  }
+  .affiliateMarketing {
+    font-size: var(--font-size-13xl);
+  }
+  .youCanIntegrate {
+    font-size: var(--font-size-7xl);
+  }
+  .appDevelopment1 {
+    font-size: var(--font-size-13xl);
+  }
+  .developAndSell {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .appDevelopment,
+  .dropshippingInfo {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .theMostCommon {
+    font-size: var(--font-size-lgi);
+  }
+  .dropshipping {
+    font-size: var(--font-size-5xl);
+  }
+  .withDropshippingYou {
+    font-size: var(--font-size-lgi);
+  }
+  .digitalProducts {
+    font-size: var(--font-size-5xl);
+  }
+  .youCanSell {
+    font-size: var(--font-size-lgi);
+  }
+  .affiliateMarketing {
+    font-size: var(--font-size-5xl);
+  }
+  .youCanIntegrate {
+    font-size: var(--font-size-lgi);
+  }
+  .appDevelopment1 {
+    font-size: var(--font-size-5xl);
+  }
+  .developAndSell {
+    font-size: var(--font-size-lgi);
+  }
+}

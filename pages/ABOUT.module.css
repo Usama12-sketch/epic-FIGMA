@@ -1,0 +1,448 @@
+.aboutUs1 {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.aboutUs {
+  position: absolute;
+  top: 26px;
+  left: 1211px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aboutFrameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #cda470 15.91%, rgba(68, 65, 62, 0.56));
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.aboutUs2,
+.home,
+.ourCources,
+.ourServices {
+  position: absolute;
+  top: 35px;
+  left: 631px;
+  font-weight: 600;
+  z-index: 2;
+}
+.aboutUs2,
+.ourCources,
+.ourServices {
+  left: 784px;
+  white-space: nowrap;
+}
+.ourCources,
+.ourServices {
+  left: 961px;
+}
+.ourCources {
+  left: 1149px;
+}
+.aboutFrame {
+  align-self: stretch;
+  height: 97px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.ourStory {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.storyFrame {
+  width: 427px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.ourTeamOf {
+  margin: 0;
+  align-self: stretch;
+  height: 430px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.ourTeamText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xl);
+  box-sizing: border-box;
+  min-width: 506px;
+  max-width: 100%;
+}
+.todayFrameIcon {
+  width: 631px;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+}
+.ourTeamTextParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  min-height: 926px;
+  max-width: 100%;
+}
+.ourMission {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.missionFrame {
+  width: 497px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contentFrame,
+.ourMissionIs {
+  display: flex;
+  align-items: center;
+}
+.ourMissionIs {
+  margin: 0;
+  align-self: stretch;
+  height: 260px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 65px;
+  font-weight: 400;
+  font-family: var(--font-segoe-ui);
+  color: var(--color-black);
+  text-align: center;
+  justify-content: center;
+}
+.contentFrame {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 175px;
+  max-width: 100%;
+}
+.messageFrame {
+  width: 1367px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.facebookFrame,
+.messageFrame,
+.weAimTo {
+  display: flex;
+  max-width: 100%;
+}
+.weAimTo {
+  margin: 0;
+  height: 260px;
+  width: 1312px;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 400;
+  font-family: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.facebookFrame {
+  width: 1363px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+}
+.todayEpicInternational {
+  margin: 0;
+  height: 195px;
+  width: 1315px;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.tikTokFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0 40px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+.storyFrameParent {
+  width: 1455px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 143px;
+  max-width: 100%;
+}
+.homeFrameInner {
+  width: 1564px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.homeFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-80xl);
+  max-width: 100%;
+}
+.multiSocialFrameChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialIconFrames {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialIconFrames1 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialIconFrames2 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialIconFrames3 {
+  height: 70px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.multiSocialFrame,
+.socialIconFramesParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.socialIconFramesParent {
+  width: 402px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.multiSocialFrame {
+  align-self: stretch;
+  background-color: var(--color-burlywood);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-14xl) var(--padding-xl) var(--padding-14xl)
+    var(--padding-3xl);
+  box-sizing: border-box;
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 416px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .todayFrameIcon {
+    flex: 1;
+  }
+  .ourTeamTextParent {
+    flex-wrap: wrap;
+  }
+  .contentFrame {
+    gap: 87px;
+  }
+  .storyFrameParent {
+    gap: 71px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .homeFrame {
+    gap: var(--gap-30xl);
+  }
+  .about {
+    gap: 208px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourStory {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .ourTeamOf {
+    font-size: var(--font-size-7xl);
+  }
+  .ourTeamText {
+    min-width: 100%;
+  }
+  .ourTeamTextParent {
+    gap: var(--gap-4xl);
+  }
+  .ourMission,
+  .ourMissionIs {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .ourMissionIs {
+    font-size: var(--font-size-7xl);
+  }
+  .contentFrame {
+    gap: var(--gap-25xl);
+  }
+  .todayEpicInternational,
+  .weAimTo {
+    font-size: var(--font-size-7xl);
+    line-height: 52px;
+  }
+  .storyFrameParent {
+    gap: var(--gap-17xl);
+  }
+  .homeFrame {
+    gap: var(--gap-6xl);
+  }
+  .about {
+    gap: var(--gap-85xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourStory {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .ourTeamOf {
+    font-size: var(--font-size-lgi);
+  }
+  .ourMission,
+  .ourMissionIs {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .ourMissionIs {
+    font-size: var(--font-size-lgi);
+  }
+  .contentFrame {
+    gap: var(--gap-3xl);
+  }
+  .todayEpicInternational,
+  .weAimTo {
+    font-size: var(--font-size-lgi);
+    line-height: 39px;
+  }
+  .storyFrameParent {
+    gap: var(--gap-lg);
+  }
+  .socialIconFramesParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

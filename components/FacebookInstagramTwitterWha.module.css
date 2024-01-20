@@ -1,0 +1,257 @@
+.nowIfYou {
+  position: relative;
+  line-height: 65px;
+}
+.instagramFrame {
+  width: 1379px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.freelancing {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.manyBusinessesAnd {
+  align-self: stretch;
+  height: 130px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 65px;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+}
+.socialMediaFrames {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  flex-shrink: 0;
+}
+.fullTimeEmployment {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.fullTimeEmploymentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+}
+.manyCompaniesHire {
+  align-self: stretch;
+  height: 130px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 65px;
+  font-family: var(--font-poppins);
+  display: flex;
+  align-items: center;
+}
+.createAndSell {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.sellResources {
+  height: 62px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+}
+.designAssets,
+.ifYouHave,
+.sellResources {
+  display: flex;
+  max-width: 100%;
+}
+.ifYouHave {
+  height: 130px;
+  flex: 1;
+  position: relative;
+  line-height: 65px;
+  align-items: center;
+}
+.designAssets {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-poppins);
+}
+.startYourDesign {
+  height: 53px;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.ifYouHave1,
+.yourAgency {
+  display: flex;
+  max-width: 100%;
+}
+.yourAgency {
+  width: 493px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  min-height: 68px;
+}
+.ifYouHave1 {
+  width: 1501px;
+  height: 130px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 65px;
+  font-family: var(--font-poppins);
+  align-items: center;
+}
+.freelanceUIUX,
+.whatsAppFrame {
+  align-self: stretch;
+  flex-direction: column;
+}
+.freelanceUIUX {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.whatsAppFrame {
+  overflow-y: auto;
+  align-items: flex-end;
+  gap: var(--gap-23xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-segoe-ui);
+}
+.facebookFrame,
+.facebookInstagramTwitterWha,
+.whatsAppFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.facebookFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-98xl);
+}
+.facebookInstagramTwitterWha {
+  width: 1618px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-20xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 950px) {
+  .nowIfYou {
+    font-size: var(--font-size-7xl);
+    line-height: 52px;
+  }
+  .freelancing {
+    font-size: var(--font-size-13xl);
+  }
+  .manyBusinessesAnd {
+    font-size: var(--font-size-7xl);
+    line-height: 52px;
+  }
+  .fullTimeEmployment {
+    font-size: var(--font-size-13xl);
+  }
+  .manyCompaniesHire {
+    font-size: var(--font-size-7xl);
+    line-height: 52px;
+  }
+  .createAndSell {
+    font-size: var(--font-size-13xl);
+  }
+  .ifYouHave {
+    font-size: var(--font-size-7xl);
+    line-height: 52px;
+  }
+  .startYourDesign {
+    font-size: var(--font-size-13xl);
+  }
+  .ifYouHave1 {
+    font-size: var(--font-size-7xl);
+    line-height: 52px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .freelanceUIUX,
+  .socialMediaFrames {
+    gap: var(--gap-lgi);
+  }
+  .whatsAppFrame {
+    gap: var(--gap-2xl);
+  }
+  .facebookFrame {
+    gap: var(--gap-39xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nowIfYou {
+    font-size: var(--font-size-lgi);
+    line-height: 39px;
+  }
+  .freelancing {
+    font-size: var(--font-size-5xl);
+  }
+  .manyBusinessesAnd {
+    font-size: var(--font-size-lgi);
+    line-height: 39px;
+  }
+  .fullTimeEmployment {
+    font-size: var(--font-size-5xl);
+  }
+  .manyCompaniesHire {
+    font-size: var(--font-size-lgi);
+    line-height: 39px;
+  }
+  .createAndSell {
+    font-size: var(--font-size-5xl);
+  }
+  .ifYouHave {
+    font-size: var(--font-size-lgi);
+    line-height: 39px;
+  }
+  .startYourDesign {
+    font-size: var(--font-size-5xl);
+  }
+  .ifYouHave1 {
+    font-size: var(--font-size-lgi);
+    line-height: 39px;
+  }
+  .facebookFrame {
+    gap: var(--gap-10xl);
+  }
+}

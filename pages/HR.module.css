@@ -1,0 +1,236 @@
+.hrChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 491px;
+  display: none;
+}
+.hrHumanResources {
+  margin: 0;
+  width: 833px;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.rectangleShapeIcon {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.227);
+}
+.wrapperRectangleShape {
+  width: 1637px;
+  height: 883px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hRFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.hrTypicallyRefers {
+  margin: 0;
+  height: 371px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.hRFrame1 {
+  width: 1388px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 41px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.facebookInstagramChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramWhatsApp {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramWhatsApp1 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramWhatsApp2 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookInstagramWhatsApp3 {
+  height: 70px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.facebookInstagram,
+.platformFrames {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.platformFrames {
+  width: 402px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.facebookInstagram {
+  flex: 1;
+  background-color: var(--color-burlywood);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-14xl) var(--padding-11xl) var(--padding-14xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+}
+.hr,
+.socialMediaFrames {
+  display: flex;
+  justify-content: flex-start;
+}
+.socialMediaFrames {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hr {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: 234px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .hRFrame {
+    gap: var(--gap-33xl);
+  }
+  .hr {
+    gap: var(--gap-98xl);
+  }
+}
+@media screen and (max-width: 950px) {
+  .hrHumanResources {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .hrTypicallyRefers {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .hRFrame {
+    gap: var(--gap-7xl);
+  }
+  .hr {
+    gap: var(--gap-39xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .hrHumanResources {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .hrTypicallyRefers {
+    font-size: var(--font-size-5xl);
+  }
+  .hRFrame1 {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .platformFrames {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

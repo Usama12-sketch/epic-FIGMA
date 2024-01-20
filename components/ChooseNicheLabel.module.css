@@ -1,0 +1,233 @@
+.chooseANiche {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.selectProductsLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+}
+.selectANiche {
+  height: 129px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.qualityContentText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.researchAffiliatePrograms {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.lookForAffiliate {
+  align-self: stretch;
+  height: 129px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+}
+.socialMediaFramesLabel {
+  width: 1311px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-height: 238px;
+  max-width: 100%;
+}
+.joinAffiliatePrograms {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.messagingFrameLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.onceYouFind,
+.selectProductsOr {
+  position: relative;
+  display: inline-block;
+}
+.onceYouFind {
+  align-self: stretch;
+  height: 129px;
+  font-size: var(--font-size-13xl);
+}
+.selectProductsOr {
+  height: 53px;
+  font-weight: 600;
+  max-width: 100%;
+}
+.joinProgramsText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+}
+.chooseSpecificProducts {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.chooseProductsLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.createQualityContent {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.developHighQualityContent {
+  align-self: stretch;
+  height: 129px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+}
+.promotionFramesGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-23xl);
+}
+.chooseNicheLabel,
+.promotionFramesGroup,
+.researchProgramsText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.researchProgramsText {
+  width: 1345px;
+  flex-direction: column;
+  gap: var(--gap-30xl);
+}
+.chooseNicheLabel {
+  width: 1536px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 1519px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 1050px) {
+  .chooseANiche {
+    font-size: var(--font-size-13xl);
+  }
+  .selectANiche {
+    font-size: var(--font-size-7xl);
+  }
+  .researchAffiliatePrograms {
+    font-size: var(--font-size-13xl);
+  }
+  .lookForAffiliate {
+    font-size: var(--font-size-7xl);
+  }
+  .joinAffiliatePrograms {
+    font-size: var(--font-size-13xl);
+  }
+  .onceYouFind {
+    font-size: var(--font-size-7xl);
+  }
+  .selectProductsOr {
+    font-size: var(--font-size-13xl);
+  }
+  .chooseSpecificProducts {
+    font-size: var(--font-size-7xl);
+  }
+  .createQualityContent {
+    font-size: var(--font-size-13xl);
+  }
+  .developHighQualityContent {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .socialMediaFramesLabel {
+    gap: var(--gap-3xl);
+  }
+  .joinProgramsText {
+    gap: var(--gap-mini);
+  }
+  .promotionFramesGroup {
+    gap: var(--gap-2xl);
+  }
+  .researchProgramsText {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .chooseANiche {
+    font-size: var(--font-size-5xl);
+  }
+  .selectANiche {
+    font-size: var(--font-size-lgi);
+  }
+  .researchAffiliatePrograms {
+    font-size: var(--font-size-5xl);
+  }
+  .lookForAffiliate {
+    font-size: var(--font-size-lgi);
+  }
+  .joinAffiliatePrograms {
+    font-size: var(--font-size-5xl);
+  }
+  .onceYouFind {
+    font-size: var(--font-size-lgi);
+  }
+  .selectProductsOr {
+    font-size: var(--font-size-5xl);
+  }
+  .chooseSpecificProducts {
+    font-size: var(--font-size-lgi);
+  }
+  .createQualityContent {
+    font-size: var(--font-size-5xl);
+  }
+  .developHighQualityContent {
+    font-size: var(--font-size-lgi);
+  }
+}

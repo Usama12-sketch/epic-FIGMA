@@ -1,0 +1,288 @@
+.discoverYourPotential {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.instructionFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+}
+.expertInstruction,
+.unleashThePower {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.unleashThePower {
+  width: 1203px;
+  height: 129px;
+  font-size: var(--font-size-13xl);
+  text-align: left;
+}
+.expertInstruction {
+  width: 385px;
+  font-weight: 600;
+}
+.instructionFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.learnFromSeasoned {
+  height: 129px;
+  width: 1203px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.learnFromProsFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.interactiveLearningExperienc {
+  width: 628px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.discoverPotentialFrame,
+.expertInstructorsFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.expertInstructorsFrame {
+  align-items: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+}
+.discoverPotentialFrame {
+  align-items: flex-end;
+  gap: var(--gap-6xl);
+  flex-shrink: 0;
+  text-align: center;
+}
+.diveIntoA {
+  width: 1203px;
+  height: 172px;
+  font-size: var(--font-size-13xl);
+}
+.diveIntoA,
+.flexibilityRedefined,
+.lifeIsBusy {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.flexibilityRedefined {
+  width: 428px;
+  font-weight: 600;
+}
+.lifeIsBusy {
+  height: 129px;
+  width: 1203px;
+  flex-shrink: 0;
+}
+.globalCommunityFrame,
+.multiLanguageFrame {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.globalCommunityFrame {
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-13xl);
+}
+.multiLanguageFrame {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-height: 215px;
+  flex-shrink: 0;
+}
+.monitorYourLanguage,
+.trackYourProgress {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.trackYourProgress {
+  width: 415px;
+  font-weight: 600;
+}
+.monitorYourLanguage {
+  height: 129px;
+  width: 1203px;
+  flex-shrink: 0;
+}
+.monitorYourLanguageEvolutioWrapper,
+.multiLanguageFrame1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.monitorYourLanguageEvolutioWrapper {
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-13xl);
+}
+.multiLanguageFrame1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  min-height: 215px;
+  flex-shrink: 0;
+}
+.englishProficiencyOpens,
+.globalCommunity {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.globalCommunity {
+  width: 401px;
+  font-weight: 600;
+}
+.englishProficiencyOpens {
+  height: 129px;
+  width: 1203px;
+  flex-shrink: 0;
+}
+.englishProficiencyOpensDoorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.flexibleLearningFrame,
+.multiLanguageFrame2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.multiLanguageFrame2 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-18xl);
+  flex-shrink: 0;
+}
+.flexibleLearningFrame {
+  width: 1300px;
+  overflow-y: auto;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 900px) {
+  .discoverYourPotential {
+    font-size: var(--font-size-13xl);
+  }
+  .unleashThePower {
+    font-size: var(--font-size-7xl);
+  }
+  .expertInstruction {
+    font-size: var(--font-size-13xl);
+  }
+  .learnFromSeasoned {
+    font-size: var(--font-size-7xl);
+  }
+  .interactiveLearningExperienc {
+    font-size: var(--font-size-13xl);
+  }
+  .diveIntoA {
+    font-size: var(--font-size-7xl);
+  }
+  .flexibilityRedefined {
+    font-size: var(--font-size-13xl);
+  }
+  .lifeIsBusy {
+    font-size: var(--font-size-7xl);
+  }
+  .trackYourProgress {
+    font-size: var(--font-size-13xl);
+  }
+  .monitorYourLanguage {
+    font-size: var(--font-size-7xl);
+  }
+  .globalCommunity {
+    font-size: var(--font-size-13xl);
+  }
+  .englishProficiencyOpens {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .multiLanguageFrame2 {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .discoverYourPotential {
+    font-size: var(--font-size-5xl);
+  }
+  .unleashThePower {
+    font-size: var(--font-size-lgi);
+  }
+  .expertInstruction {
+    font-size: var(--font-size-5xl);
+  }
+  .learnFromSeasoned {
+    font-size: var(--font-size-lgi);
+  }
+  .interactiveLearningExperienc {
+    font-size: var(--font-size-5xl);
+  }
+  .diveIntoA {
+    font-size: var(--font-size-lgi);
+  }
+  .flexibilityRedefined {
+    font-size: var(--font-size-5xl);
+  }
+  .lifeIsBusy {
+    font-size: var(--font-size-lgi);
+  }
+  .trackYourProgress {
+    font-size: var(--font-size-5xl);
+  }
+  .monitorYourLanguage {
+    font-size: var(--font-size-lgi);
+  }
+  .globalCommunity {
+    font-size: var(--font-size-5xl);
+  }
+  .englishProficiencyOpens {
+    font-size: var(--font-size-lgi);
+  }
+}

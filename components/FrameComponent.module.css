@@ -1,0 +1,113 @@
+.heading2,
+.ourTopCourses {
+  position: relative;
+  font-weight: 600;
+}
+.ourTopCourses {
+  font-family: var(--font-open-sans);
+  background: linear-gradient(90.28deg, #f29217, #a6a29e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+.heading2 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 62px;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameChild,
+.frameChild1,
+.frameChild2,
+.frameInner,
+.frameItem,
+.rectangleIcon {
+  height: 216px;
+  width: 266px;
+  position: relative;
+  object-fit: cover;
+}
+.instanceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-90xl);
+  min-height: 534px;
+}
+.heading2OurCompanyGrowthParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-71xl);
+  max-width: 100%;
+  font-size: var(--font-size-31xl);
+}
+.heading21 {
+  position: relative;
+  line-height: 62px;
+  font-weight: 600;
+}
+.heading2OurCompanyGrowth,
+.ourTopCoursesParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ourTopCoursesParent {
+  width: 1016px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-79xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .heading2OurCompanyGrowthParent {
+    gap: var(--gap-26xl);
+  }
+  .ourTopCoursesParent {
+    gap: var(--gap-30xl);
+  }
+}
+@media screen and (max-width: 825px) {
+  .heading2 {
+    font-size: var(--font-size-21xl);
+    line-height: 50px;
+  }
+  .instanceParent {
+    gap: var(--gap-35xl);
+  }
+  .heading2OurCompanyGrowthParent {
+    gap: var(--gap-3xl);
+  }
+  .ourTopCoursesParent {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourTopCourses {
+    font-size: var(--font-size-lgi);
+  }
+  .heading2 {
+    font-size: var(--font-size-11xl);
+    line-height: 37px;
+  }
+  .instanceParent {
+    gap: var(--gap-8xl);
+  }
+  .heading21 {
+    font-size: var(--font-size-lgi);
+    line-height: 50px;
+  }
+}

@@ -1,0 +1,551 @@
+.aboutUs1 {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.aboutUs {
+  position: absolute;
+  top: 26px;
+  left: 1211px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.quranLearningFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #cda470 15.91%, rgba(68, 65, 62, 0.56));
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.aboutUs2,
+.home,
+.ourCources,
+.ourServices {
+  position: absolute;
+  top: 40px;
+  left: 631px;
+  font-weight: 600;
+  z-index: 2;
+}
+.aboutUs2,
+.ourCources,
+.ourServices {
+  left: 784px;
+  white-space: nowrap;
+}
+.ourCources,
+.ourServices {
+  left: 961px;
+}
+.ourCources {
+  left: 1149px;
+}
+.homeFrame {
+  align-self: stretch;
+  height: 97px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.quranLearning {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.quranTextFrame {
+  width: 609px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.unlockFrameIcon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.241);
+}
+.wrapperUnlockFrame {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quranTextFrameParent {
+  width: 1677px;
+  height: 1065px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-86xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.unlockTheBeauty {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.comfortFrame {
+  width: 1270px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-24xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.embarkOnA {
+  height: 129px;
+  width: 1397px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.onlineFrame {
+  width: 1490px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 215px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.expertGuidance {
+  width: 359px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.interactiveSessionsFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+}
+.flexibleLearning,
+.learnFromSeasoned {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.learnFromSeasoned {
+  width: 1224px;
+  height: 86px;
+  font-size: var(--font-size-13xl);
+}
+.flexibleLearning {
+  width: 368px;
+  font-weight: 600;
+}
+.interactiveSessionsFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.embraceTheFlexibility {
+  height: 129px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.interactiveSessionsFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-35xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.personalizedAttention {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.interactiveSessionsFrame3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.whetherYouChoose {
+  width: 1224px;
+  height: 86px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  max-width: 100%;
+}
+.interactiveSessions {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.interactiveSessionsFrame4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.engageInLively {
+  height: 129px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.interactiveSessionsFrame5,
+.oneononeSessionsFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.interactiveSessionsFrame5 {
+  width: 1251px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+}
+.oneononeSessionsFrame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-4xl);
+}
+.ourPlatformPrioritizes,
+.safeLearningEnvironment {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.safeLearningEnvironment {
+  width: 550px;
+  font-weight: 600;
+}
+.ourPlatformPrioritizes {
+  height: 86px;
+  width: 1203px;
+  flex-shrink: 0;
+}
+.respectfulSpacesFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.expertGuideFrame,
+.platformFrame,
+.safeLearningEnvironmentFram {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.platformFrame {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-20xl);
+}
+.expertGuideFrame,
+.safeLearningEnvironmentFram {
+  box-sizing: border-box;
+}
+.safeLearningEnvironmentFram {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xs);
+}
+.expertGuideFrame {
+  width: 1325px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-11xl);
+  min-height: 1142px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.instagramFrameChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.whatsAppFrame {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.whatsAppFrame1 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.whatsAppFrame2 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.tikTokFrame,
+.whatsAppFrame3 {
+  display: flex;
+  align-items: flex-start;
+}
+.whatsAppFrame3 {
+  height: 70px;
+  width: 65px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tikTokFrame {
+  width: 402px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.instagramFrame,
+.quran {
+  display: flex;
+  align-items: center;
+}
+.instagramFrame {
+  align-self: stretch;
+  background-color: var(--color-burlywood);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-14xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.quran {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .interactiveSessionsFrame2 {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .quranLearning {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .unlockTheBeauty {
+    font-size: var(--font-size-13xl);
+  }
+  .embarkOnA {
+    font-size: var(--font-size-7xl);
+  }
+  .expertGuidance {
+    font-size: var(--font-size-13xl);
+  }
+  .learnFromSeasoned {
+    font-size: var(--font-size-7xl);
+  }
+  .flexibleLearning {
+    font-size: var(--font-size-13xl);
+  }
+  .embraceTheFlexibility {
+    font-size: var(--font-size-7xl);
+  }
+  .personalizedAttention {
+    font-size: var(--font-size-13xl);
+  }
+  .whetherYouChoose {
+    font-size: var(--font-size-7xl);
+  }
+  .interactiveSessions {
+    font-size: var(--font-size-13xl);
+  }
+  .engageInLively {
+    font-size: var(--font-size-7xl);
+  }
+  .safeLearningEnvironment {
+    font-size: var(--font-size-13xl);
+  }
+  .ourPlatformPrioritizes {
+    font-size: var(--font-size-7xl);
+  }
+  .quran {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .quranTextFrameParent {
+    gap: var(--gap-33xl);
+  }
+  .platformFrame {
+    gap: var(--gap-lgi);
+  }
+  .quran {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .quranLearning {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .quranTextFrameParent {
+    gap: var(--gap-7xl);
+  }
+  .unlockTheBeauty {
+    font-size: var(--font-size-5xl);
+  }
+  .embarkOnA {
+    font-size: var(--font-size-lgi);
+  }
+  .expertGuidance {
+    font-size: var(--font-size-5xl);
+  }
+  .learnFromSeasoned {
+    font-size: var(--font-size-lgi);
+  }
+  .flexibleLearning {
+    font-size: var(--font-size-5xl);
+  }
+  .embraceTheFlexibility {
+    font-size: var(--font-size-lgi);
+  }
+  .personalizedAttention {
+    font-size: var(--font-size-5xl);
+  }
+  .whetherYouChoose {
+    font-size: var(--font-size-lgi);
+  }
+  .interactiveSessions {
+    font-size: var(--font-size-5xl);
+  }
+  .engageInLively {
+    font-size: var(--font-size-lgi);
+  }
+  .safeLearningEnvironment {
+    font-size: var(--font-size-5xl);
+  }
+  .ourPlatformPrioritizes {
+    font-size: var(--font-size-lgi);
+  }
+  .tikTokFrame {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,286 @@
+.ideaAndPlanning {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.wireframeCreation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blankLine {
+  margin: 0;
+}
+.defineThePurpose,
+.identifyYourTarget {
+  margin-bottom: 0;
+}
+.defineThePurposeOfYourApp {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.defineThePurposeContainer {
+  height: 172px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.userDesign {
+  width: 710px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.design {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.writeCode {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.createWireframesAnd {
+  margin-bottom: 0;
+}
+.createWireframesAndPrototyp {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.createWireframesAndContainer {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.testApp {
+  width: 826px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-28xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.development {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.submitToStores {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+}
+.writeTheCode {
+  margin-bottom: 0;
+}
+.writeTheCodeForYourAppT {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.writeTheCodeContainer {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.facebookInstagramTikTokWha {
+  width: 858px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+}
+.testing {
+  position: relative;
+  font-weight: 600;
+}
+.testingWrapper {
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.blankLine1 {
+  margin: 0;
+}
+.conductThoroughTesting {
+  margin-bottom: 0;
+}
+.conductThoroughTestingToEn {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.conductThoroughTestingContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  z-index: 1;
+}
+.deploymentFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  min-height: 381px;
+  max-width: 100%;
+}
+.deployment {
+  height: 53px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.deploymentHub {
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.submitYourApp {
+  margin-bottom: 0;
+}
+.submitYourAppToTheRespect {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-24xl);
+}
+.submitYourAppContainer {
+  width: 1283px;
+  height: 86px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  max-width: 100%;
+}
+.designSection {
+  width: 1401px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 1121px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 950px) {
+  .ideaAndPlanning {
+    font-size: var(--font-size-13xl);
+  }
+  .defineThePurposeContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .design {
+    font-size: var(--font-size-13xl);
+  }
+  .createWireframesAndContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .development {
+    font-size: var(--font-size-13xl);
+  }
+  .writeTheCodeContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .testing {
+    font-size: var(--font-size-13xl);
+  }
+  .conductThoroughTestingContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .deployment {
+    font-size: var(--font-size-13xl);
+  }
+  .submitYourAppContainer {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 700px) {
+  .deploymentFrame {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ideaAndPlanning {
+    font-size: var(--font-size-5xl);
+  }
+  .defineThePurposeContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .design {
+    font-size: var(--font-size-5xl);
+  }
+  .createWireframesAndContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .development {
+    font-size: var(--font-size-5xl);
+  }
+  .writeTheCodeContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .testing {
+    font-size: var(--font-size-5xl);
+  }
+  .conductThoroughTestingContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .deployment {
+    font-size: var(--font-size-5xl);
+  }
+  .submitYourAppContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

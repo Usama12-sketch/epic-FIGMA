@@ -1,0 +1,269 @@
+.shopifyChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 491px;
+  display: none;
+}
+.shopify1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameWithText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-40xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleShapeIcon {
+  width: 100%;
+  flex: 1;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  height: 100%;
+  transform: scale(1.552);
+}
+.wrapperRectangleShape {
+  width: 1637px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopifyOverview {
+  align-self: stretch;
+  height: 734px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.shopifyIsAn {
+  margin: 0;
+  height: 172px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.introFrame {
+  width: 1403px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 19px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.thereAreSeveral {
+  margin: 0;
+  height: 43px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.monetizationMethods {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 100px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.combinedSocialMediaChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialPlatformsGroup {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialPlatformsGroup1 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialPlatformsGroup2 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialPlatformsGroup3 {
+  height: 70px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.framedSocialMedia {
+  width: 402px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.combinedSocialMedia,
+.shopify {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.combinedSocialMedia {
+  align-self: stretch;
+  background-color: var(--color-burlywood);
+  flex-direction: row;
+  padding: var(--padding-14xl) var(--padding-664xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.shopify {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: 199px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+@media screen and (max-width: 1200px) {
+  .combinedSocialMedia {
+    padding-left: var(--padding-322xl);
+    padding-right: var(--padding-322xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .shopify1 {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .shopifyOverview {
+    gap: var(--gap-33xl);
+  }
+  .shopifyIsAn,
+  .thereAreSeveral {
+    font-size: var(--font-size-7xl);
+  }
+  .shopify {
+    gap: var(--gap-80xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .shopifyOverview {
+    gap: var(--gap-7xl);
+  }
+  .framedSocialMedia {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .combinedSocialMedia {
+    padding-left: var(--padding-151xl);
+    padding-right: var(--padding-151xl);
+    box-sizing: border-box;
+  }
+  .shopify {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .shopify1 {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .frameWithText {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .shopifyIsAn,
+  .thereAreSeveral {
+    font-size: var(--font-size-lgi);
+  }
+  .combinedSocialMedia {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

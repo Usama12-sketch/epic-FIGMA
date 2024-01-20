@@ -1,0 +1,317 @@
+.affiliateChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 491px;
+  display: none;
+}
+.aboutUs1 {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.aboutUs {
+  position: absolute;
+  top: 26px;
+  left: 1211px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.homeRectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #cda470 15.91%, rgba(68, 65, 62, 0.56));
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.aboutUs2,
+.home,
+.ourCources,
+.ourServices {
+  position: absolute;
+  top: 34px;
+  left: 631px;
+  font-weight: 600;
+  z-index: 2;
+}
+.aboutUs2,
+.ourCources,
+.ourServices {
+  left: 784px;
+  white-space: nowrap;
+}
+.ourCources,
+.ourServices {
+  left: 961px;
+}
+.ourCources {
+  left: 1149px;
+}
+.nestedFrames {
+  align-self: stretch;
+  height: 97px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+.affiliateMarketing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.affiliateMarketingLabel {
+  width: 765px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.wrapperRectangle46Child {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.552);
+}
+.wrapperRectangle46 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subSectionsFrame {
+  width: 1677px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-86xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.affiliateMarketingIs {
+  height: 172px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.howToEarnFrame {
+  width: 1403px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-28xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.heresAStepByStep {
+  height: 43px;
+  position: relative;
+  display: inline-block;
+}
+.nicheSelectionFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 111px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.tikTokWhatsAppFrameChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialMediaFrames {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialMediaFrames1 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialMediaFrames2 {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.socialMediaFrames3 {
+  height: 70px;
+  width: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.multiSocialMediaFrame,
+.tikTokWhatsAppFrame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.multiSocialMediaFrame {
+  width: 402px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.tikTokWhatsAppFrame {
+  align-self: stretch;
+  background-color: var(--color-burlywood);
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-14xl) 689px;
+  box-sizing: border-box;
+}
+.affiliate {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .tikTokWhatsAppFrame {
+    padding-left: var(--padding-325xl);
+    padding-right: var(--padding-325xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .affiliateMarketing {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .affiliateMarketingIs,
+  .heresAStepByStep {
+    font-size: var(--font-size-7xl);
+  }
+  .affiliate {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .subSectionsFrame {
+    gap: var(--gap-33xl);
+  }
+  .multiSocialMediaFrame {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tikTokWhatsAppFrame {
+    padding-left: var(--padding-153xl);
+    padding-right: var(--padding-153xl);
+    box-sizing: border-box;
+  }
+  .affiliate {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .affiliateMarketing {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .subSectionsFrame {
+    gap: var(--gap-7xl);
+  }
+  .affiliateMarketingIs,
+  .heresAStepByStep {
+    font-size: var(--font-size-lgi);
+  }
+  .tikTokWhatsAppFrame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

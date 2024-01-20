@@ -1,0 +1,262 @@
+.webDevelopmentChild {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-white);
+  height: 491px;
+  display: none;
+}
+.webDevelopment1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.wrapperRectangle46Child {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.552);
+}
+.wrapperRectangle46 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xl);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.webDevelopmentParent {
+  width: 1677px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-86xl);
+  min-height: 626px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.webDevelopmentRefers {
+  margin: 0;
+  height: 172px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.webDevelopmentRefersToTheWrapper {
+  width: 1403px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 124px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.thereAreSeveral {
+  margin: 0;
+  height: 43px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.thereAreSeveralWaysToEarnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 120px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-segoe-ui);
+}
+.frameChild {
+  height: 136px;
+  width: 1920px;
+  position: relative;
+  background-color: var(--color-burlywood);
+  display: none;
+  max-width: 100%;
+}
+.facebookIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.facebookWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.instagramIcon {
+  width: 73px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.instagramWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tiktokIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.tiktokWrapper {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.whatsappIcon {
+  width: 75px;
+  height: 74px;
+  position: relative;
+  object-fit: cover;
+}
+.frameParent,
+.whatsappWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.whatsappWrapper {
+  height: 70px;
+  width: 65px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 402px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleParent,
+.webDevelopment {
+  display: flex;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-burlywood);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-11xl) var(--padding-664xl) var(--padding-17xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.webDevelopment {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-86xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    padding-left: var(--padding-322xl);
+    padding-right: var(--padding-322xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .webDevelopment1 {
+    font-size: var(--font-size-32xl);
+    line-height: 52px;
+  }
+  .thereAreSeveral,
+  .webDevelopmentRefers {
+    font-size: var(--font-size-7xl);
+  }
+  .webDevelopment {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .webDevelopmentParent {
+    gap: var(--gap-33xl);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .rectangleParent {
+    padding-left: var(--padding-151xl);
+    padding-right: var(--padding-151xl);
+    box-sizing: border-box;
+  }
+  .webDevelopment {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .webDevelopment1 {
+    font-size: var(--font-size-19xl);
+    line-height: 39px;
+  }
+  .webDevelopmentParent {
+    gap: var(--gap-7xl);
+  }
+  .thereAreSeveral,
+  .webDevelopmentRefers {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

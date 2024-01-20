@@ -1,0 +1,71 @@
+.accountManagementFrameChild {
+  height: 97px;
+  width: 1920px;
+  position: relative;
+  background: linear-gradient(90deg, #cda470 15.91%, rgba(68, 65, 62, 0.56));
+  display: none;
+  max-width: 100%;
+}
+.home {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.emptyFrame {
+  width: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutUs {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emptyFrame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 0;
+}
+.ourCources,
+.ourServices {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.accountManagementFrame {
+  align-self: stretch;
+  background: linear-gradient(90deg, #cda470 15.91%, rgba(68, 65, 62, 0.56));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-15xl) var(--padding-xl) var(--padding-17xl);
+  box-sizing: border-box;
+  gap: var(--gap-32xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 750px) {
+  .accountManagementFrame {
+    display: none;
+    gap: var(--gap-6xl);
+  }
+}
