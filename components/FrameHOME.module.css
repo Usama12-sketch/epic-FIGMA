@@ -26,6 +26,8 @@
   max-width: 100%;
 }
 .home {
+  text-decoration: none;
+  color: white;
   height: 27px;
   position: relative;
   font-weight: 600;
@@ -40,6 +42,7 @@
   justify-content: flex-start;
 }
 .aboutUs {
+  text-decoration: none;
   height: 27px;
   position: relative;
   font-weight: 600;

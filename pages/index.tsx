@@ -6,7 +6,7 @@ import FrameComponent from "../components/FrameComponent";
 import GetInTouch from "../components/GetInTouch";
 import VideoEditing from "../components/VideoEditing";
 import styles from "./index.module.css";
-
+import Footer from "../components/Footer"
 const Home: NextPage = () => {
   return (
     <div className={styles.home}>
@@ -133,43 +133,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
-      <footer className={styles.socialMediaFrames}>
-        <div className={styles.socialMediaFramesChild} />
-        <div className={styles.socialMediaLogos}>
-          <div className={styles.socialMediaFramesSet}>
-            <img
-              className={styles.facebookIcon}
-              loading="eager"
-              alt=""
-              src="/facebook@2x.png"
-            />
-          </div>
-          <div className={styles.socialMediaFramesSet1}>
-            <img
-              className={styles.instagramIcon}
-              loading="eager"
-              alt=""
-              src="/instagram@2x.png"
-            />
-          </div>
-          <div className={styles.socialMediaFramesSet2}>
-            <img
-              className={styles.tiktokIcon}
-              loading="eager"
-              alt=""
-              src="/tiktok@2x.png"
-            />
-          </div>
-          <div className={styles.socialMediaFramesSet3}>
-            <img
-              className={styles.whatsappIcon}
-              loading="eager"
-              alt=""
-              src="/whatsapp@2x.png"
-            />
-          </div>
-        </div>
-      </footer>
+     {/* <Footer /> */}
     </div>
   );
 };
